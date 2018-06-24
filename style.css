@@ -19,7 +19,7 @@ body {
     .container h1::after {
       content: "";
       position: absolute;
-      background-color: #c4c0c0;
+      background-color: #686666;
       width: 60%;
       height: 1px;
       left: 90px;
