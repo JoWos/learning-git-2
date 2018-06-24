@@ -1,0 +1,32 @@
+body {
+    margin: 29px;
+    background-image: url("https://images.pexels.com/photos/52732/non-incense-smell-dark-52732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-attachment: fixed; 
+    color: rgb(196, 192, 192);
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    background-color: rgba(93, 113, 150, 0.2);
+    width: 30%;
+    padding: 30px;
+    margin: 0 auto;
+    
+    h1 {
+        font-size: 32px;
+        letter-spacing: 3px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: rgb(196, 192, 192);
+            width: 60%;
+            height: 1px;
+            left: 90px;
+            top: 35px;
+        }
+    }
+}
