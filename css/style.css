@@ -15,24 +15,31 @@ body {
   margin: 0 auto;
 }
 
-.container h1 {
+.container .lyrics h1 {
   font-size: 32px;
   letter-spacing: 3px;
   position: relative;
 }
 
-.container h1::after {
+.container .lyrics h1::after {
   content: "";
   position: absolute;
   background-color: #e4e1e1;
   width: 60%;
   height: 1px;
-  left: 90px;
-  top: 35px;
+  left: 20%;
+  top: 100%;
 }
 
-.test {
+.container .credits {
+  display: -ms-flexbox;
   display: flex;
+  height: 30px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 12px;
+  background-color: black;
 }
-
 /*# sourceMappingURL=style.css.map */

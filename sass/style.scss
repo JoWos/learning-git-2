@@ -14,23 +14,30 @@ body {
     padding: 30px;
     margin: 0 auto;
     
-    h1 {
-        font-size: 32px;
-        letter-spacing: 3px;
-        position: relative;
+    .lyrics {
+        h1 {
+            font-size: 32px;
+            letter-spacing: 3px;
+            position: relative;
 
-        &::after {
-            content: "";
-            position: absolute;
-            background-color: rgb(228, 225, 225);
-            width: 60%;
-            height: 1px;
-            left: 90px;
-            top: 35px;
+            &::after {
+                content: "";
+                position: absolute;
+                background-color: rgb(228, 225, 225);
+                width: 60%;
+                height: 1px;
+                left: 20%;
+                top: 100%;
+            }
         }
     }
-}
 
-.test {
-    display: flex;
+    .credits {
+        display: flex;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        background-color: black;
+    }
 }
